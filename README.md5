@@ -2,9 +2,17 @@
 
 Откройте консоль, создайте новую папку, перейдите в неё. 
 Далее скопируйте следующий код в консоль:
-```bash
+```
 git clone https://github.com/tenessy0570/phone_data_app.git
 cd phone_data_app
+```
+
+Далее либо запустите скрипт start.sh:
+```
+. start.sh
+```
+Либо введите в консоль команду
+```
 docker-compose up --build -d --force-recreate
 ```
 
