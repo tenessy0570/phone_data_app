@@ -1,4 +1,3 @@
-import uvicorn
 from fastapi import FastAPI
 
 from controllers.phone_routes import phone_data_router
