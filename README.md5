@@ -1,7 +1,10 @@
 # Порядок запуска проекта
 
-Откройте консоль. перейдите в папку с проектом, введите следующую команду:
+Откройте консоль, создайте новую папку, перейдите в неё. 
+Далее скопируйте следующий код в консоль:
 ```bash
+git clone https://github.com/tenessy0570/phone_data_app.git
+cd phone_data_app
 docker-compose up --build -d --force-recreate
 ```
 
