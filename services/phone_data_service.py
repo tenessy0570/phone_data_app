@@ -11,6 +11,11 @@ class PhoneDataService:
         return data
 
     async def add_new_phone_data(self, data: PhoneDataModel):
+        """
+        Here we can add an error if number already exists,
+        but I think it is not necessary since the repository is key-value,
+        and we just rewrite existing file
+        """
         await self.phone_data_repo.set(
             key=data.number,
             value=data.address
